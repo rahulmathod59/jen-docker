@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.qianhong.calculator.CalculatorServiceIT
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.235 s <<< FAILURE! - in com.qianhong.calculator.CalculatorServiceIT
+testAdd(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 1.085 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<503>
+	at com.qianhong.calculator.CalculatorServiceIT.testAdd(CalculatorServiceIT.java:31)
+
+testDiv(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<503>
+	at com.qianhong.calculator.CalculatorServiceIT.testDiv(CalculatorServiceIT.java:58)
+
+testMul(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<503>
+	at com.qianhong.calculator.CalculatorServiceIT.testMul(CalculatorServiceIT.java:49)
+
+testSub(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<503>
+	at com.qianhong.calculator.CalculatorServiceIT.testSub(CalculatorServiceIT.java:40)
+
+testPing(com.qianhong.calculator.CalculatorServiceIT)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<503>
+	at com.qianhong.calculator.CalculatorServiceIT.testPing(CalculatorServiceIT.java:22)
+
